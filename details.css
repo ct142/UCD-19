@@ -43,6 +43,7 @@ body{
 .exhibition-item:hover{
     /* text-decoration: underline; */
     opacity: 0.8;
+    text-decoration: underline;
 }
 
 /* .exhibition {
