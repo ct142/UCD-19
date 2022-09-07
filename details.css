@@ -44,7 +44,11 @@ body{
     /* text-decoration: underline; */
     opacity: 0.8;
     text-decoration: underline;
-    display: inline-block;
+}
+
+.exhibition-item:active{
+    transition:all linear 240ms;
+    transform: translate3d(45%, 0, 0);
 }
 
 /* .exhibition {

@@ -80,7 +80,17 @@ models = [
     },
 ]
 
-
+$(document).ready(function(){
+    $(".text-white exhibition-item").addClass("color");
+  //   First active item
+    $(".d-flex w-50 justify-content-around m-auto exhibition").click(function(){
+       $(".bottom__line").addClass("exhibition-item:active");
+       $(".text-white exhibition-item");
+       $(".text-white exhibition-item");
+       $(".text-white exhibition-item");
+       $(".bottom__line").removeClass("exhibition-item:active");
+    });
+});
 
 
 
